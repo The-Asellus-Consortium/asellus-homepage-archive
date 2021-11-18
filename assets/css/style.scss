@@ -7,6 +7,8 @@
 
 @import "reset";
 @import "variables";
+@import "image_serving";
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -18,14 +20,14 @@ html {
 }
 
 body {
-	background: $white;
+	background: #E8D5B7;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 1000px;
   padding: 0 10px;
   width: 100%;
 }
@@ -156,7 +158,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $black;
 
   @include mobile {
     text-align: center;
@@ -165,9 +167,10 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   margin-right: 15px;
+  margin-top: 10px;
 
   @include mobile {
     float: none;
@@ -275,13 +278,17 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #F9B248;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
 }
+
+
+// gallery
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
