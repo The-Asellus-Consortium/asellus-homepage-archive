@@ -1,6 +1,6 @@
 ---
 layout: page
 permalink: /projects
-title: Ongoing projects
 ---
 
+# Ongoing projects involving ___Asellus aquaticus___

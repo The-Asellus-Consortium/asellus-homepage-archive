@@ -5,10 +5,6 @@
 
     {% include meta.html %}
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -27,11 +23,21 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/about"><strong>About</strong></a>
-            <a href="{{ site.baseurl }}/news"><strong>News</strong></a>
-            <a href="{{ site.baseurl }}/projects"><strong>Projects</strong></a>
-            <a href="{{ site.baseurl }}/connect"><strong>Connect</strong></a>
+						<div class="nav-row">
 
+							<a href="{{ site.baseurl }}/organism"><strong>The Organism</strong></a>
+							<a href="{{ site.baseurl }}/projects"><strong>Projects</strong></a>
+							<a href="{{ site.baseurl }}/news"><strong>News</strong></a>
+							
+						</div>
+						<div class="nav-row">
+						
+							<a href="{{ site.baseurl }}/community"><strong>The Research Community</strong></a>
+							<a href="{{ site.baseurl }}/about" style="color:#4183C4"><strong>About</strong></a>
+
+						</div>
+						
+	
           </nav>
         </header>
       </div>
@@ -44,7 +50,12 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+						<div class="row">
+							{% include svg-icons.html %}
+						<div class="row">
+							<a href="{{ site.baseurl }}/about"><strong>© The Asellus Consortium</strong></a>
+						</div>
+
         </footer>
       </div>
     </div>

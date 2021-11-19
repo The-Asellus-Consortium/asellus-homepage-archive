@@ -1,24 +1,20 @@
 ---
 layout: page
 permalink: /about
-title: About this website
 ---
 
+# About this website
 
-# ___Asellus aquaticus___
-
-A few images and some natural history.
-
+Why should people care about this website
 
 # The Asellus Consortium
 
-Who we are, what we do, our intent.
+Who we are, what we do, our intent. Mention Twitter account, github acount, deposited data, etc...
 
-<iframe
-  allowfullscreen="true"
-  src="https://app.vosviewer.com/?json=https://raw.githubusercontent.com/mluerig/asellus-aquaticus/master/assets/data/vos_viewer_v1.json&simple_ui=true"
-  width="100%"
-  height="75%"
-  style="border: 1px solid #ddd; max-width: 1200px; min-height: 500px"
->
-</iframe>
+Links to our personal websites, ...
+
+# Join the consortium
+
+To foster community building among scientists studying or using _Asellus_ isopods for their research, feel free to join the asellus mailing list. 
+
+{% include contact-form.html %}

@@ -213,6 +213,11 @@ img {
   }
 }
 
+.nav-row {
+  margin: 5px 5px 5px 5px;
+  font-size: 20px;
+}
+
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
@@ -227,7 +232,7 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 35px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
