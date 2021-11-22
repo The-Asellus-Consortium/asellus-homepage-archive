@@ -8,9 +8,7 @@ title: Asellus aquaticus
 
 Short intro-text, explaining how to use this website
 
-<div class="res-center">
-<img class="res-img" src="/assets/images/asellus_no_bg.png" width="600" >
-</div>
+<img class="center" src="/assets/images/asellus_no_bg.png" style="width:800px">
 
 # Projects
 

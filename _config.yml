@@ -83,3 +83,12 @@ exclude:
   
 include:
 - _pages
+
+
+mini_magick:
+    thumbnail: # Preset name
+        source: images/originals # source directory - change this to whatever you want
+        destination: images/thumbnail # generated destination directory
+        resize: "100x70^" # standard imagemagick options - you can chain multiple commands
+        gravity: "center"
+        extent: "100x70"

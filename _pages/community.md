@@ -9,11 +9,10 @@ The current landscape of _Asellus aquaticus_ research, based on data from Lafuen
 
 <p align="center">
 	<iframe
-		allowfullscreen="true"
-	src="https://app.vosviewer.com/?json=https://raw.githubusercontent.com/The-Asellus-Consortium/the-asellus-consortium.github.io/master/assets/json/vos_viewer_v1.json&simple_ui=true"
-		width="100%"
-		height="75%"
-		style="border: 1px solid #ddd; max-width: 800px; min-height: 500px; border-radius: 5px; display:block;"
+	allowfullscreen="true"	src="https://app.vosviewer.com/?json=https://raw.githubusercontent.com/The-Asellus-Consortium/the-asellus-consortium.github.io/master/assets/json/vos_viewer_v1.json&simple_ui=true"
+	width="100%"
+	height="75%"
+	style="border: 1px solid #ddd; max-width: 800px; min-height: 500px; border-radius: 5px; display:block;"
 	>
 	</iframe>
 </p>
@@ -21,9 +20,7 @@ The current landscape of _Asellus aquaticus_ research, based on data from Lafuen
 
 From Lafuente et al. 2021. More on methodology ...
 
-<div class="res-center">
-<img class="res-img" src="/assets/images/lit_review.png">
-</div>
+<img class="center" src="/assets/images/lit_review.png" style="border-radius: 5px; width: 800px;"/>
 
 
 
