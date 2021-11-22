@@ -23,7 +23,6 @@
 
           <nav>
 						<div class="nav-row">
-
 							<a href="{{ site.baseurl }}/organism"><strong>The Organism</strong></a> <strong>|</strong>
 							<a href="{{ site.baseurl }}/projects"><strong>Projects and Data</strong></a>
 							
@@ -42,7 +41,9 @@
     </div>
 
     <div id="main" role="main" class="container">
+	
       {{ content }}
+	  
     </div>
 
     <div class="wrapper-footer">
@@ -59,6 +60,8 @@
     </div>
 
     {% include analytics.html %}
-	
+
+	</div>
+
   </body>
 </html>

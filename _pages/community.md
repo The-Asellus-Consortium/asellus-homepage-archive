@@ -22,5 +22,3 @@ From Lafuente et al. 2021. More on methodology ...
 
 <img class="center" src="/assets/images/lit_review.png" style="border-radius: 5px; width: 800px;"/>
 
-
-
