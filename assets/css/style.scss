@@ -8,6 +8,7 @@
 @import "reset";
 @import "variables";
 @import "image_serving";
+@import "various";
 
 // Syntax highlighting @import is at the bottom of this file
 
@@ -20,7 +21,7 @@ html {
 }
 
 body {
-	background: #E8D5B7;
+  background: #E8D5B7;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }

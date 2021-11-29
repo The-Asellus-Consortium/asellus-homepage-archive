@@ -1,0 +1,25 @@
+
+.video-container {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap; 
+  gap: 10px;
+  justify-content: center;
+}
+
+.video-container>div {
+  flex: calc(95% / 3);
+}
+
+.video-item {
+  display: grid;
+  /* max-width: 420px; */
+  /* grid-template-columns: 1fr; */
+}
+
+.video-item div {
+ padding: 5px;
+ background-color: rgba(0,0,0,0.1);
+ /* grid-row-start: 1; */
+ /* grid-column-start: 1; */
+}

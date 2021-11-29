@@ -7,15 +7,13 @@
   width: 50%;
 }
 
-
-
 // general image settings
 
 .img_row{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; 
-  column-gap: 10px;
+  gap: 10px;
   justify-content: center;
 }
 
@@ -25,6 +23,14 @@
 
 .img_row>a {
   flex: calc(95% / 3);
+}
+
+.img_row>iframe {
+  flex: calc(95% / 2);
+}
+
+.img_row>div {
+  flex: calc(95% / 2);
 }
 
 
