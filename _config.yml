@@ -73,6 +73,7 @@ exclude:
   
 include:
 - _pages
+- _redirect
 
 
 mini_magick:
