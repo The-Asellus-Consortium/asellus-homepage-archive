@@ -11,6 +11,16 @@ some links...more blah
 
 ## Session 1
 
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.fitvids.js"></script>
+
+<script>
+$(document).ready(function(){
+$("video-item").fitVids();
+$("body").fitVids();
+});
+</script>
+
 <div class="video-container">
 	<div class="video-item">
 		<div>

@@ -1,0 +1,2 @@
+   from = "/wiki/:splat"
+   to= "https://wiki.asellus.org/*"
