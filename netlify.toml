@@ -1,5 +1,13 @@
 [[redirects]]
+  from = "/wiki/*"
+  to = "https://wiki.asellus.org/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "https://wiki.asellus.org/*"
-  to = "https://asellus.org/wiki/:splat"
+  to = "https://asellus.org/wiki/"
   status = 301
   force = true
+  
+
