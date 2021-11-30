@@ -75,6 +75,10 @@ include:
 - _pages
 - _redirect
 
+plugins:
+- jekyll-archives
+
+
 
 mini_magick:
     thumbnail: # Preset name
