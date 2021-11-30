@@ -1,1 +1,4 @@
-/wiki/* https://asellus-wiki.netlify.app/:splat 200
+[[redirects]]
+   from = "/wiki/*"
+   to = "http://www.asellus.org/wiki/:splat"
+   status = 200
