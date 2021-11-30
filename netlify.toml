@@ -1,2 +1,5 @@
-   from = "/wiki/:splat"
-   to= "https://wiki.asellus.org/*"
+[[redirects]]
+  from = "https://wiki.asellus.org*"
+  to = "/wiki"
+  status = 301
+  force = true
