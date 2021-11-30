@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Second Asellus symposium
+excerpt: On November 26th the second international Asellus Symposium was held online. 
 ---
 
 ## The Symposium

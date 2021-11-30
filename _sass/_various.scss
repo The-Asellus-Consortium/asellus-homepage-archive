@@ -8,12 +8,12 @@
 }
 
 .video-container>div {
-  flex: calc(95% / 3);
+  flex: calc(95% / 2);
 }
 
 .video-item {
   display: grid;
-  /* max-width: 420px; */
+  min-width: 420px;
   /* grid-template-columns: 1fr; */
 }
 
