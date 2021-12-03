@@ -3,6 +3,12 @@
   to = "https://wiki.asellus.org/:splat"
   status = 200
   force = true
+  
+[[redirects]]
+  from = "/wiki"
+  to = "https://wiki.asellus.org/wiki"
+  status = 200
+  force = true
 
   
 
