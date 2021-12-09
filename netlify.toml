@@ -1,13 +1,13 @@
 [[redirects]]
   from = "https://asellus.org/wiki"
   to = "https://asellus.org/wiki/"
-  status = 301
+  status = 200
   force = true
   
 [[redirects]]
   from = "https://www.asellus.org/wiki"
   to = "https://www.asellus.org/wiki/"
-  status = 301
+  status = 200
   force = true
 
 [[redirects]]
