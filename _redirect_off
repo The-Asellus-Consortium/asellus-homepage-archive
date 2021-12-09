@@ -1,4 +1,0 @@
-[[redirects]]
-   from = "/asellus-wiki/*"
-   to = "http://www.asellus.org/wiki/:splat"
-   status = 200
