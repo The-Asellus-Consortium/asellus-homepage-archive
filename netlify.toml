@@ -3,6 +3,13 @@
   to = "https://wiki.asellus.org"
   status = 200
   force = true
+  
+[[redirects]]
+  from = "https://www.asellus.org/wiki"
+  to = "https://wiki.asellus.org"
+  status = 200
+  force = true
+
 
 [[redirects]]
   from = "/wiki/*"
