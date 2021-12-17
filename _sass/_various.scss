@@ -1,4 +1,16 @@
 
+.demo-container{
+  display: inline-flex;
+  align-items: flex-start;
+  max-width: 95%;
+  gap: 10px;
+}
+
+.demo-item{
+  max-width: 100%;
+	padding: 0px 10px 0px 10px;
+}
+
 .video-container {
   display: flex; 
   flex-direction: row;
@@ -7,21 +19,22 @@
   justify-content: flex-start;
 }
 
-.video-container>div {
+.video-container> div {
   flex: calc(95% / 2);
 }
 
 .video-item {
   display: grid;
   min-width: 420px;
-  /* grid-template-columns: 1fr; */
+  padding: 5px;
+  background-color: rgb(200,200,200);
 }
 
-.video-item div {
- padding: 5px;
- background-color: rgba(0,0,0,0.1);
- /* grid-row-start: 1; */
- /* grid-column-start: 1; */
+.video-item h5 {
+ padding: 0px 0px 0px 10px;
 }
 
+.video-item p {
+ padding: 0px 0px 0px 10px;
+}
 
