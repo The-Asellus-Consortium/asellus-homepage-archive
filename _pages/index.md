@@ -27,3 +27,20 @@ This the homepage of The Asellus Consortium, an interest group for the broad use
 <script src="/assets/lightbox/js/lightbox-plus-jquery.min.js"></script>
 
 If you are interested in joining the consortium, and want help us to compile knowledge on _Asellus aquaticus_, better connect the community, organize meetings and symposia, or have ideas for projects and collaborations, please get in touch by sending an email to [info@asellus.org](mailto:info@asellus.org)
+
+# News
+
+<div class="post">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+
+		  <div class="entry">
+			{{ post.excerpt }}
+		  </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>

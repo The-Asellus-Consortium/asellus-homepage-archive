@@ -16,9 +16,7 @@ $("body").fitVids();
 });
 </script>
 
-On November 26th 2021, the 2nd Asellus Symposium was held online. There were some 40+ registered 
-participants from institutions in 14 countries. Below you can find the final program, links to all 
-recorded talks on youtube (unlisted) and a sumary of the discussion notes.
+On November 26th 2021, the 2nd Asellus Symposium was held online. There were some 40+ registered participants from institutions in 14 countries. Below you can find the final program, links to all recorded talks on youtube (unlisted) and a summary of the discussion notes.
 
 It was great to see the broad range of topics that were covered in presentations and during the discussion sessions (see synthesis of insight below) - from selective forces and determinants of pigmentation, intraspecific variation in innovativeness and behavioural responses to predator cues, foraging ecology and life-history variation, and species interactions (host-parasite, host-microbiome, predator-prey) to phylogeography and microevolution, along the surface-waterpipe-cave continuum, as well as natural and human-impacted environments. 
 
@@ -30,13 +28,13 @@ This clearly shows that *Asellus aquaticus* is ready to fledge as a model system
 
 Symposium program:
 <script> 
-	var url = "/assets/files/2nd_Asellus_Symp_programm.pdf";
+	var url = "/assets/files/AsellusSymposium21_programm.pdf";
 	document.write('<button onclick="download_file(url)">Download</button>');
 </script>
  
 Scientific synopsis and notes:
 <script> 
-	var url = "/assets/files/2nd_Asellus_Symp_programm.pdf";
+	var url = "/assets/files/AsellusSymposium21_Synthesis18Dec21.pdf";
 	document.write('<button onclick="download_file(url)">Download</button>');
 </script>
 
