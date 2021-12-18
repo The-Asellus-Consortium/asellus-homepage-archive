@@ -6,8 +6,6 @@ excerpt: On November 26th the 2nd Asellus Symposium was held online.
 
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/jquery.fitvids.js"></script>
-<script src="/assets/js/custom.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"> </script>
 
 <script>
 $(document).ready(function(){
@@ -26,17 +24,9 @@ This clearly shows that *Asellus aquaticus* is ready to fledge as a model system
 
 # Documents
 
-Symposium program:
-<script> 
-	var url = "/assets/files/AsellusSymposium21_programm.pdf";
-	document.write('<button onclick="download_file(url)">Download</button>');
-</script>
- 
-Scientific synopsis and notes:
-<script> 
-	var url = "/assets/files/AsellusSymposium21_Synthesis18Dec21.pdf";
-	document.write('<button onclick="download_file(url)">Download</button>');
-</script>
+<p>Symposium program: <a href="/assets/files/AsellusSymposium21_programm.pdf" download><button> Download </button></a></p>
+<p>Scientific synopsis and notes: <a href="/assets/files/AsellusSymposium21_Synthesis18Dec21.pdf" download> <button> Download</button> </a></p>
+
 
 
 # Recorded talks
