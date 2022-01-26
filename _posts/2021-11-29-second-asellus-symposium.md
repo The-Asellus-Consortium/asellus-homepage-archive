@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The 2nd Asellus symposium
-excerpt: On November 26th the 2nd Asellus Symposium was held online. 
+excerpt: "On November 26th the 2nd Asellus Symposium was held online. The symposium synopsis and all recorded talks are available here."
 ---
 
 <script src="/assets/js/jquery.min.js"></script>
@@ -28,6 +28,41 @@ This clearly shows that *Asellus aquaticus* is ready to fledge as a model system
 <p>Scientific synopsis and notes: <a href="/assets/files/AsellusSymposium21_Synthesis18Dec21.pdf" download> <button> Download</button> </a></p>
 
 
+
+<p>yaml file: <a href="https://raw.githubusercontent.com/phenopype/phenopype-templates/main/templates/detection/single1.yaml" download="https://raw.githubusercontent.com/phenopype/phenopype-templates/main/templates/detection/single1.yaml"><button> Download </button></a></p>
+
+<a id="link" href="https://raw.githubusercontent.com/phenopype/phenopype-templates/main/templates/detection/single1.yaml">
+		Download this file
+</a>
+	
+<script>
+ function download_file(filelink) {
+	 
+	 	var parts = filelink.split('/');
+		var filename = parts.pop() || parts.pop();  // handle potential trailing slash
+	 
+     var req = new XMLHttpRequest();
+     req.open("GET", filelink, true);
+     req.responseType = "blob";
+     req.onload = function (event) {
+         var blob = req.response;
+         var fileName = req.getResponseHeader("fileName") //if you have the fileName header available
+         var link=document.createElement('a');
+         link.href=window.URL.createObjectURL(blob);
+         link.download=filename;
+         link.click();
+     };
+
+     req.send();
+ }
+</script>
+
+ <script> 
+		var buttonName = "sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary reference external"
+		var url1 = "https://raw.githubusercontent.com/phenopype/phenopype-templates/main/templates/detection/single1.yaml";
+		document.write('<a class="buttonName" type="button" onclick="download_file(url1)">Download</a>');
+ </script>
+			 
 
 # Recorded talks
 
