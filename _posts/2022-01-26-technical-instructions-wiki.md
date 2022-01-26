@@ -10,7 +10,7 @@ Here is some information material for anyone interested in contributing to the w
 
 If you just want to quickly add some content to the wiki and don't care about git:
 1. make a [GitHub](https://github.com/) account and log in
-2. go to the [source folder in the wiki repo on GitHub](https://github.com/mluerig-test/asellus-wiki/tree/main/source)
+2. go to the [source folder in the wiki repo on GitHub](https://github.com/The-Asellus-Consortium/asellus-wiki/tree/main/source)
 3. edit a markdown file on GitHub (using the pencil symbol / obey [markdown syntax](https://kramdown.gettalong.org/quickref.html)) 
 4. once done, click the "Propose changes" changes button (a consortium member that has access to [The Asellus Consortium](https://github.com/The-Asellus-Consortium) GitHub organization will see a "Commit changes" button instead)
 
