@@ -1,6 +1,6 @@
 ---
 layout: news_archive
-permalink: /news
+permalink: /news/
 title: About this website
 ---
 
